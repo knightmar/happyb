@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card" onclick="toggleCard()">
+            <!-- The Front of the Card -->
+            <div class="card-front">
+                <div class="front-content">
+                    <h1>Happy Birthday!</h1>
+                    <p>Click to Open 🎂</p>
+                </div>
+            </div>
+            
+            <!-- The Inside of the Card -->
+            <div class="card-inside">
+                <div class="inside-content">
+                    <h2>To [Name],</h2>
+                    <p>Wishing you a day filled with happiness and a year filled with joy.</p>
+                    <p>Have a great one!</p>
+                    <p class="signature">- From [Your Name]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
