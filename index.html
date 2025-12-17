@@ -1,37 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Quicksand:wght@300..700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- Import Confetti Library -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
+<div id="background-stamps"></div>
 
-    <div class="container">
-        <div class="card" onclick="toggleCard()">
-            <!-- The Front of the Card -->
-            <div class="card-front">
-                <div class="front-content">
-                    <h1>Happy Birthday!</h1>
-                    <p>Click to Open 🎂</p>
-                </div>
+<div class="container">
+    <div class="card" onclick="toggleCard()">
+        <div class="card-front">
+            <div class="front-content">
+                <h1>Joyeux anniversaire !</h1>
+                <p class="pulse">Clique pour ouvrir 🎂</p>
             </div>
-            
-            <!-- The Inside of the Card -->
-            <div class="card-inside">
-                <div class="inside-content">
-                    <h2>To [Name],</h2>
-                    <p>Wishing you a day filled with happiness and a year filled with joy.</p>
-                    <p>Have a great one!</p>
-                    <p class="signature">- From [Your Name]</p>
-                </div>
+        </div>
+
+        <div class="card-inside">
+            <div class="inside-content">
+                <h2>Joyeux anniversaire Victoria !</h2>
+                <p>J'aurais aimé pouvoir t'envoyer une vraie carte, j'espère que celle-ci te plaira !</p>
+                <p>J'ai hâte de te voir bientôt, sur Caen ou à Strasbourg !</p>
+                <p>Passe une très bonne journée !</p>
+                <p class="signature">- Arthur</p>
+                <p>PS. Ton cadeau t'attend à L'Heure des Geeks !</p>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
